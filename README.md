@@ -2,8 +2,7 @@
 
 Dino Škrgić and Dejan Stojkovic, Department of Physics, University at Buffalo, SUNY
 
-- arXiv: [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
-- Journal: *Physical Review Research* **VOL**, ARTICLE (YEAR), DOI: [10.1103/XXXXXXX](https://doi.org/10.1103/XXXXXXX)
+Placeholder for arXiv and journal, once accepted (fingers crossed)! 
 
 This repository holds the LaTeX source of the paper and the code and data that reproduce every figure and number in it.
 
