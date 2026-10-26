@@ -1,0 +1,86 @@
+== (3) validation by half-window; dropped runs
+KC1 lower: f=[0.03, 0.08, 0.15, 0.25, 0.35, 0.45] L_exact=[0.402, 0.359, 0.327, 0.268, 0.173, 0.092] L_theory=[0.435, 0.394, 0.348, 0.29, 0.225, 0.075] max|dP1|=0.046
+KC1 upper: f=[0.55] L_exact=[0.042] L_theory=[0.0] max|dP1|=0.038
+KC1 dropped: f=[0.7, 0.9] P2_num=[0.082, 0.257] P2_theory=[0.092, 0.271]
+KC2 lower: f=[0.03, 0.08, 0.15, 0.25, 0.35, 0.45] L_exact=[0.426, 0.375, 0.294, 0.221, 0.166, 0.088] L_theory=[0.393, 0.335, 0.277, 0.223, 0.19, 0.109] max|dP1|=0.032
+KC2 upper: f=[0.55, 0.7] L_exact=[0.024, 0.01] L_theory=[0.0, 0.0] max|dP1|=0.023
+KC2 dropped: f=[0.9] P2_num=[0.212] P2_theory=[0.225]
+KC3 lower: f=[0.05, 0.15, 0.3, 0.45] L_exact=[0.384, 0.244, 0.157, 0.09] L_theory=[0.327, 0.217, 0.147, 0.102] max|dP1|=0.045
+KC3 upper: f=[0.6, 0.8] L_exact=[0.006, 0.002] L_theory=[0.0, 0.0] max|dP1|=0.006
+KC4 lower: f=[0.45] L_exact=[0.145] L_theory=[0.094] max|dP1|=0.050
+KC4 upper: f=[0.6, 0.8] L_exact=[0.011, 0.001] L_theory=[0.0, 0.0] max|dP1|=0.011
+KC4 dropped: f=[0.05, 0.15, 0.3] P2_num=[0.879, 0.717, 0.485] P2_theory=[0.964, 0.939, 0.65]
+KP1 dropped: f=[0.03, 0.08, 0.15, 0.25, 0.35, 0.45, 0.55, 0.7, 0.9] P2_num=[0.107, 0.112, 0.12, 0.133, 0.149, 0.169, 0.196, 0.26, 0.477] P2_theory=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+KP2 lower: f=[0.03, 0.08, 0.15, 0.25, 0.35, 0.45] L_exact=[0.144, 0.057, 0.036, 0.018, 0.01, 0.006] L_theory=[0.117, 0.062, 0.036, 0.018, 0.008, 0.004] max|dP1|=0.023
+KP2 upper: f=[0.55, 0.7] L_exact=[0.006, 0.009] L_theory=[0.003, 0.004] max|dP1|=0.005
+KP2 dropped: f=[0.9] P2_num=[0.078] P2_theory=[0.0]
+KP3 lower: f=[0.05, 0.15, 0.3, 0.45] L_exact=[0.133, 0.059, 0.028, 0.018] L_theory=[0.139, 0.063, 0.028, 0.017] max|dP1|=0.005
+KP3 upper: f=[0.6, 0.8] L_exact=[0.022, 0.045] L_theory=[0.023, 0.049] max|dP1|=0.003
+KP4 lower: f=[0.05, 0.15, 0.3, 0.45] L_exact=[0.18, 0.094, 0.058, 0.06] L_theory=[0.193, 0.098, 0.061, 0.061] max|dP1|=0.010
+KP4 upper: f=[0.6, 0.8] L_exact=[0.096, 0.3] L_theory=[0.108, 0.318] max|dP1|=0.013
+== (2) ring return times
+KC gap 1: N=250  v_g,max(band below gap)=0.707  return time=354
+KC gap 2: N=250  v_g,max(band below gap)=0.439  return time=569
+KC gap 3: N=160  v_g,max(band below gap)=0.280  return time=572
+KC gap 4: N=140  v_g,max(band below gap)=0.199  return time=702
+KP gap 1: N=250  v_g,max(band below gap)=0.487  return time=513
+KP gap 2: N=250  v_g,max(band below gap)=0.752  return time=332
+KP gap 3: N=220  v_g,max(band below gap)=0.868  return time=253
+KP gap 4: N=200  v_g,max(band below gap)=0.922  return time=217
+== (1) non-adjacent band pairs (Markov, Eq. G2)
+KC gap 1: w_e=1.7207 alpha=0.1216
+   f=0.30  L_total=2.76e-01  L_nonadjacent=7.54e-09  pairs=[(0, 1)]
+   f=0.45  L_total=6.97e-02  L_nonadjacent=1.17e-08  pairs=[(0, 1)]
+   f=0.55  L_total=1.38e-08  L_nonadjacent=1.38e-08  pairs=[(0, 1)]
+   f=0.60  L_total=1.43e-08  L_nonadjacent=1.43e-08  pairs=[(0, 1)]
+   f=0.75  L_total=1.48e-08  L_nonadjacent=1.48e-08  pairs=[(0, 1)]
+   f=0.90  L_total=1.24e-08  L_nonadjacent=1.24e-08  pairs=[(0, 1)]
+KC gap 2: w_e=4.0575 alpha=0.2585
+   f=0.30  L_total=2.10e-01  L_nonadjacent=1.29e-06  pairs=[(0, 2)]
+   f=0.45  L_total=1.28e-01  L_nonadjacent=1.44e-06  pairs=[(0, 2)]
+   f=0.55  L_total=1.61e-06  L_nonadjacent=1.61e-06  pairs=[(0, 2)]
+   f=0.60  L_total=1.65e-06  L_nonadjacent=1.65e-06  pairs=[(0, 2)]
+   f=0.75  L_total=1.31e-06  L_nonadjacent=1.31e-06  pairs=[(0, 2)]
+   f=0.90  L_total=8.74e-07  L_nonadjacent=8.74e-07  pairs=[(0, 2)]
+KC gap 3: w_e=6.8512 alpha=0.4069
+   f=0.30  L_total=1.48e-01  L_nonadjacent=5.53e-06  pairs=[(0, 4), (1, 3)]
+   f=0.45  L_total=1.05e-01  L_nonadjacent=6.35e-06  pairs=[(0, 4), (1, 3)]
+   f=0.55  L_total=7.75e-06  L_nonadjacent=7.75e-06  pairs=[(0, 4), (1, 3)]
+   f=0.60  L_total=5.91e-06  L_nonadjacent=5.91e-06  pairs=[(0, 4), (1, 3)]
+   f=0.75  L_total=5.27e-08  L_nonadjacent=5.27e-08  pairs=[(0, 4)]
+   f=0.90  L_total=3.93e-08  L_nonadjacent=3.93e-08  pairs=[(0, 4)]
+KC gap 4: w_e=9.8264 alpha=0.5598
+   f=0.30  L_total=2.89e-01  L_nonadjacent=3.52e-05  pairs=[(0, 6), (1, 5), (2, 4)]
+   f=0.45  L_total=1.04e-01  L_nonadjacent=1.79e-05  pairs=[(0, 6), (1, 5), (2, 4)]
+   f=0.55  L_total=8.13e-05  L_nonadjacent=8.13e-05  pairs=[(0, 6), (1, 5), (2, 4)]
+   f=0.60  L_total=6.41e-07  L_nonadjacent=6.41e-07  pairs=[(0, 6), (1, 5)]
+   f=0.75  L_total=5.79e-07  L_nonadjacent=5.79e-07  pairs=[(0, 6), (1, 5)]
+   f=0.90  L_total=8.96e-09  L_nonadjacent=8.96e-09  pairs=[(0, 6)]
+KP gap 1: w_e=3.1416 alpha=0.1926
+   f=0.30  L_total=3.86e-03  L_nonadjacent=0.00e+00  pairs=[]
+   f=0.45  L_total=2.34e-04  L_nonadjacent=0.00e+00  pairs=[]
+   f=0.55  L_total=0.00e+00  L_nonadjacent=0.00e+00  pairs=[]
+   f=0.60  L_total=0.00e+00  L_nonadjacent=0.00e+00  pairs=[]
+   f=0.75  L_total=0.00e+00  L_nonadjacent=0.00e+00  pairs=[]
+   f=0.90  L_total=0.00e+00  L_nonadjacent=0.00e+00  pairs=[]
+KP gap 2: w_e=6.2832 alpha=0.3389
+   f=0.30  L_total=1.26e-02  L_nonadjacent=2.21e-03  pairs=[(0, 2), (0, 3), (1, 2)]
+   f=0.45  L_total=3.71e-03  L_nonadjacent=2.79e-03  pairs=[(0, 2), (0, 3), (1, 2)]
+   f=0.55  L_total=3.32e-03  L_nonadjacent=3.32e-03  pairs=[(0, 3), (1, 2)]
+   f=0.60  L_total=3.70e-03  L_nonadjacent=3.70e-03  pairs=[(0, 3), (1, 2)]
+   f=0.75  L_total=5.31e-03  L_nonadjacent=5.31e-03  pairs=[(0, 3), (1, 2)]
+   f=0.90  L_total=1.05e-02  L_nonadjacent=1.05e-02  pairs=[(0, 3), (1, 2)]
+KP gap 3: w_e=9.4248 alpha=0.4897
+   f=0.30  L_total=2.88e-02  L_nonadjacent=1.07e-02  pairs=[(0, 4), (0, 5), (1, 3), (1, 4), (2, 3)]
+   f=0.45  L_total=1.74e-02  L_nonadjacent=1.54e-02  pairs=[(0, 4), (0, 5), (1, 3), (1, 4), (2, 3)]
+   f=0.55  L_total=2.00e-02  L_nonadjacent=2.00e-02  pairs=[(0, 5), (1, 4), (2, 3)]
+   f=0.60  L_total=2.34e-02  L_nonadjacent=2.34e-02  pairs=[(0, 5), (1, 4), (2, 3)]
+   f=0.75  L_total=4.02e-02  L_nonadjacent=4.02e-02  pairs=[(0, 5), (1, 4), (2, 3)]
+   f=0.90  L_total=1.04e-01  L_nonadjacent=1.04e-01  pairs=[(0, 5), (1, 4), (2, 3)]
+KP gap 4: w_e=12.5664 alpha=0.6428
+   f=0.30  L_total=6.14e-02  L_nonadjacent=3.47e-02  pairs=[(0, 6), (0, 7), (1, 5), (1, 6), (2, 4), (2, 5), (3, 4)]
+   f=0.45  L_total=6.30e-02  L_nonadjacent=5.94e-02  pairs=[(0, 6), (0, 7), (1, 5), (1, 6), (2, 4), (2, 5), (3, 4)]
+   f=0.55  L_total=8.83e-02  L_nonadjacent=8.83e-02  pairs=[(0, 7), (1, 6), (2, 5), (3, 4)]
+   f=0.60  L_total=1.10e-01  L_nonadjacent=1.10e-01  pairs=[(0, 7), (1, 6), (2, 5), (3, 4)]
+   f=0.75  L_total=2.34e-01  L_nonadjacent=2.34e-01  pairs=[(0, 7), (1, 6), (2, 5), (3, 4)]
+   f=0.90  L_total=1.00e+00  L_nonadjacent=1.00e+00  pairs=[(0, 7), (1, 6), (2, 5), (3, 4)]
